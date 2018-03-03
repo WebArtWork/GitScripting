@@ -1,1 +1,1 @@
-nodemon --watch server app.js
+nodemon --watch server --watch databases app.js

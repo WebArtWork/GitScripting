@@ -1,1 +1,1 @@
-npm run-script run
+npm run-script nodemon
