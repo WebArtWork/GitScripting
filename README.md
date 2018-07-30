@@ -29,10 +29,6 @@ TEXT
 TEXT
 ## minit
 TEXT
-## nvmm
-TEXT
-## nvmw
-TEXT
 ## p
 TEXT
 ## pa
