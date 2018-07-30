@@ -3,7 +3,7 @@ Git is a free and open source distributed version control system designed to han
 # Installation
 Installation - is the act of making the program ready for execution
 # Commands in bin folder
-
+Commands which are available in /bin folder is accessed by every one and can run by every user. This folder contains basic commands such as cat, chmod, chgrp, chown, date, dir, dd, df, ln, mv, echo and zipping tools such as bzip, gzip etc.
 ## add
 TEXT
 ## commit
