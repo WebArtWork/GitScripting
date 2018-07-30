@@ -11,9 +11,9 @@ Makes something like checkpoints (saving all your working files).
 ## d
 Switch you into developer branch.
 ## f
-Reset all files to working saved defined versions.
+Reset all files to working saved defined version.
 ## fetch
-Reset all files to working saved versions.
+Reset all files to working saved version.
 ## fmfd
 Switch you into master branch, reset all files to working saved version, reset all files to working developer version, launch master branch and switch you into developer branch.
 ## gap
