@@ -17,6 +17,8 @@ TEXT
 TEXT
 ## gap
 TEXT
+## gkey
+TEXT
 ## go
 TEXT
 ## init
@@ -40,6 +42,8 @@ TEXT
 ## pul
 TEXT
 ## pull
+TEXT
+## pus
 TEXT
 ## push
 TEXT
