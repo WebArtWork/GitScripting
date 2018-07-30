@@ -43,4 +43,4 @@ this comand updates remote refs in (master) branch along with associated objects
 ## push
 this comand updates remote refs in (dev) branch along with associated objects.
 ## run
-TEXT
+this comand 'run' the server by using nodemon
