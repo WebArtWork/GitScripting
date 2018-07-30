@@ -1,7 +1,7 @@
 # What is git
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
 # Installation
-Installation - is the act of making the program ready for execution
+Installation - is the act of making the program ready for execution. https://git-scm.com/ 
 # Commands in bin folder
 Commands which are available in /bin folder is accessed by every one and can run by every user. This folder contains basic commands such as add, commit, d ,f ,gap, init, minit, key, gkey, p, pa, pull, push. They improve life of program creators 
 ## add
@@ -19,17 +19,17 @@ Switch into master branch, reset all files to working saved version, reset all f
 ## gap
 The serve command is used to start up a local web server to host the application for the PhoneGap Developer app (or any browser).
 ## gkey
-gkey(npm install gkey) - a list of human-readable names for Browser-friendly gamepads, currently only supports generic/Xbox-like controllers
+gkey - generic a key for repositoris (npm install gkey)
 ## go
-go( npm run start) - this comand start a project
+go - this comand start a project (npm run start)
 ## init
-init( 1. git init 2. git remote add origin "$1" 3. git checkout -b dev) - this comand used for combine dev brunch of reposibility and folder
+init - this comand used for combine dev brunch of reposibility and folder (1. git init 2. git remote add origin "COMMENT" 3. git checkout -b dev)
 ## key
-key cat ~/.ssh/id_rsa.pub - this comand create key for reposibility
+key - this comand creat key for reposibility and fast show it ( cat ~/.ssh/id_rsa.pub)
 ## minit
-minit( 1. git init 2. git remote add origin "$1" 3. git pull origin master) - this comand used for combine master brunch of reposibility and folder
+minit - this comand used for combine master brunch of reposibility and folder (1. git init 2. git remote add origin "COMMENT" 3. git pull origin master)
 ## p
-p(1. git add --all . 2. git commit -m "$1" 3. git pull origin "$2" 4. git push origin "$2") - upload progect on any repository
+p - upload progect on any repository (1. git add --all . 2. git commit -m "COMMENT" 3. git pull origin "BRUNCH" 4. git push origin "BRUNCH")
 ## pa
 this comand unloads the code to the (dev) branch in hub project.
 ## publish
