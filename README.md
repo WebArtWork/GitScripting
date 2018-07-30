@@ -31,16 +31,16 @@ minit( 1. git init 2. git remote add origin "$1" 3. git pull origin master) - th
 ## p
 p(1. git add --all . 2. git commit -m "$1" 3. git pull origin "$2" 4. git push origin "$2") - upload progect on any repository
 ## pa
-TEXT
+this comand unloads the code to the (dev) branch in hub project.
 ## publish
-TEXT
+this comand publishes a package to the registry so that it can be installed by name.
 ## pul
-TEXT
+this comand downloads the code from project hub (master) branch.
 ## pull
-TEXT
+this comand downloads the code from project hub (dev) branch.
 ## pus
-TEXT
+this comand updates remote refs in (master) branch along with associated objects.
 ## push
-TEXT
+this comand updates remote refs in (dev) branch along with associated objects.
 ## run
 TEXT
