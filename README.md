@@ -5,19 +5,19 @@ Installation - is the act of making the program ready for execution
 # Commands in bin folder
 Commands which are available in /bin folder is accessed by every one and can run by every user. This folder contains basic commands such as add, commit, d ,f ,gap, init, minit, key, gkey, p, pa, pull, push. They improve life of program creators 
 ## add
-TEXT
+Adds all modified and new files in the current directory and all subdirectories to the staging area.
 ## commit
-TEXT
+Makes something like checkpoints (saving all your working files).
 ## d
-TEXT
+Switch you into developer branch.
 ## f
-TEXT
+Reset all files to working saved defined versions.
 ## fetch
-TEXT
+Reset all files to working saved versions.
 ## fmfd
-TEXT
+Switch into master branch, reset all files to working saved version, reset all files to working developer version, launch master branch and switch into developer branch.
 ## gap
-TEXT
+The serve command is used to start up a local web server to host the application for the PhoneGap Developer app (or any browser).
 ## gkey
 gkey(npm install gkey) - a list of human-readable names for Browser-friendly gamepads, currently only supports generic/Xbox-like controllers
 ## go
