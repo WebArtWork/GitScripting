@@ -1,8 +1,9 @@
 # What is git
-TEXT
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
 # Installation
-TEXT
+Installation - is the act of making the program ready for execution
 # Commands in bin folder
+
 ## add
 TEXT
 ## commit
@@ -18,19 +19,17 @@ TEXT
 ## gap
 TEXT
 ## gkey
-TEXT
+gkey(npm install gkey) - a list of human-readable names for Browser-friendly gamepads, currently only supports generic/Xbox-like controllers
 ## go
-TEXT
+go( npm run start) - this comand start a project
 ## init
-TEXT
+init( 1. git init 2. git remote add origin "$1" 3. git checkout -b dev) - this comand used for combine dev brunch of reposibility and folder
 ## key
-TEXT
-## m
-TEXT
+key(cat ~/.ssh/id_rsa.pub) - this comand create key for reposibility
 ## minit
-TEXT
+minit( 1. git init 2. git remote add origin "$1" 3. git pull origin master) - this comand used for combine master brunch of reposibility and folder
 ## p
-TEXT
+p(1. git add --all . 2. git commit -m "$1" 3. git pull origin "$2" 4. git push origin "$2") - upload progect on any repository
 ## pa
 TEXT
 ## publish
