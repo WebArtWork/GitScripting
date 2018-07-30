@@ -11,7 +11,7 @@ Makes something like checkpoints (saving all your working files).
 ## d
 Switch you into developer branch.
 ## f
-Reset all files to working saved defined versions.
+Throw away all staged and unstaged changes, forget everything on current local branch and make it exactly the same as origin/"$1".
 ## fetch
 Reset all files to working saved versions.
 ## fmfd
