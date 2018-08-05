@@ -1,46 +1,62 @@
 # What is git
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Basically this tool will solve the team work on an software project.
+
 # Installation
-Installation - is the act of making the program ready for execution. https://git-scm.com/ 
+[In this link](https://git-scm.com) you can download soft which will allow you to use git. Also it provide you an nice terminal which will let you use git in a better way.
+
 # Commands in bin folder
-Commands which are available in /bin folder is accessed by every one and can run by every user. This folder contains basic commands such as add, commit, d ,f ,gap, init, minit, key, gkey, p, pa, pull, push. They improve life of program creators 
+Git has commands like git `pull origin master` which is not small commands to type from terminal, and for that reasson we made this repo, to use small commands. Description of each you can find below, or you can simply open each file and google for it's content. To make those commands work, you have to drop folder bin inside your user folder. If for some reason commands will not work, you will have to check your PATH variable, if it's linking your user folder.
+
 ## add
 Adds all modified and new files in the current directory and all subdirectories to the staging area.
+
 ## commit
-Makes something like checkpoints (saving all your working files).
+Makes something like checkpoints (saving all your working files). Commit can be local and on the server side. When you do push, you make your local commits to be written in the server.
+
 ## d
-Switch you into developer branch.
-## f
-Throw away all staged and unstaged changes, forget everything on current local branch and make it exactly the same as origin/"$1".
+Switch you into dev branch.
+## m
+Switch you into master branch.
+
 ## fetch
-Reset all files to working saved versions.
+Reset all files to working saved versions to the `dev` branch in server.
+## f
+Same with `fetch` command, just it require also branch as second parament. ex: `f master` which will fetch to branch master.
+
 ## fmfd
-Switch into master branch, reset all files to working saved version, reset all files to working developer version, launch master branch and switch into developer branch.
+Fetching master branch from dev branch. Useful when you want to update your master branch from your dev branch.
+
 ## gap
-The serve command is used to start up a local web server to host the application for the PhoneGap Developer app (or any browser).
-## gkey
-gkey - generic a key for repositoris (npm install gkey)
-## go
-go - this comand start a project (npm run start)
-## init
-init - this comand used for combine dev brunch of reposibility and folder (1. git init 2. git remote add origin "COMMENT" 3. git checkout -b dev)
-## key
-key - this comand creat key for reposibility and fast show it ( cat ~/.ssh/id_rsa.pub)
-## minit
-minit - this comand used for combine master brunch of reposibility and folder (1. git init 2. git remote add origin "COMMENT" 3. git pull origin master)
-## p
-p - upload progect on any repository (1. git add --all . 2. git commit -m "COMMENT" 3. git pull origin "BRUNCH" 4. git push origin "BRUNCH")
-## pa
-this comand unloads the code to the (dev) branch in hub project.
-## publish
-this comand publishes a package to the registry so that it can be installed by name.
-## pul
-this comand downloads the code from project hub (master) branch.
-## pull
-this comand downloads the code from project hub (dev) branch.
-## pus
-this comand updates remote refs in (master) branch along with associated objects.
-## push
-this comand updates remote refs in (dev) branch along with associated objects.
+This command is used to start up application for the PhoneGap app.
 ## run
-this comand 'run' the server by using nodemon
+This command is used to start up web server application by nodemon
+## go
+This command start a npm project (npm run start).
+## publish
+Publish will publish your npm repo into [npm public access. ](https://www.npmjs.com)
+
+## gkey
+This command is made to generate ssh key, is require email as second parameter and after it will ask few questions about the key you want to generate. Not providing any answers will generate the default key.
+## key
+This command will print in terminal your ssh key, if you have one.
+
+## init
+Initialize git repository with dev branch. Require as second parameter repo link. ex: `init git@github.com:WebArtWork/GitScripting.git`
+## minit
+Initialize git repository with master branch. Require as second parameter repo link. ex: `minit git@github.com:WebArtWork/GitScripting.git`
+
+## pa
+This command unite the update group of commands, require as second parameter the message for commit and updating the dev branch. ex: `pa 'Updating readme file'`<br>
+At start it do `add`, then `commit Message_Provided`, then pull and after that push. If merge has appeared on pull command, push will not work.
+## p
+This is same command with pa, with the difference that we can pass on which branch we want to do the update. ex `p 'UPdating readme file' master`
+
+## pull
+This comand downloads the code from dev branch.
+## pul
+Same with `pull` command, with difference that we can specify the branch we want to download the code the code. ex `pul master`
+
+## push
+This command pushing all your local commits to the dev branch in the server.
+## pus
+This is same command with push with difference that we can specify the branch. ex `pus master`
