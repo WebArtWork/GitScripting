@@ -5,10 +5,10 @@ Git is a free and open source distributed version control system designed to han
 [In this link](https://git-scm.com) you can download soft which will allow you to use git. Also it provide you an nice terminal which will let you use git in a better way.
 
 # Commands in bin folder
-Git has commands like `git pull origin master` which is not small commands to type from terminal, and for that reasson we made this repo, to use small commands. Description of each you can find below, or you can simply open each file and google for it's content. To make those commands work, you have to drop folder bin inside your user folder. If for some reason commands will not work, you will have to check your PATH variable, if it's linking your user folder.
+Git has commands like `git pull origin master` which is not small command to type from terminal and for that reasson we made this repo, to use small commands. Description of each you can find below, or you can simply open each file and google for it's content. To make those commands work, you have to drop folder bin inside your user folder. If for some reason commands will not work, you will have to check your PATH variable, if it's linking your user folder.
 
 ## add
-Adds all modified and new files in the current directory and all subdirectories to the staging area.
+Add all modified and new files in the current directory and all subdirectories to the staging area.
 
 ## commit
 Makes something like checkpoints (saving all your working files). Commit can be local and on the server side. When you do push, you make your local commits to be written in the server.
