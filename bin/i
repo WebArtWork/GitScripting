@@ -1,0 +1,4 @@
+git init
+git remote add origin "$1"
+git checkout -b $2
+git pull origin $2
