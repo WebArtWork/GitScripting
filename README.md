@@ -47,7 +47,7 @@ At start it do `add Message_Provided` then pull and after that push. If merge ha
 ## pull
 This comand downloads the code from current branch.
 
-## pul
+## pul :branch
 Same with `pull` command, with difference that we can specify the branch we want to download the code the code. ex `pul master`
 
 ## push
