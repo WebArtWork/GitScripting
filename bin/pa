@@ -1,4 +1,4 @@
 git add --all .
 git commit -m "$1"
-git pull origin dev
-git push origin dev
+git pull origin HEAD
+git push origin HEAD

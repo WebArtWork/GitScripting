@@ -1,0 +1,4 @@
+git checkout stage
+git fetch --all
+git reset --hard origin/stage
+git checkout -b $1

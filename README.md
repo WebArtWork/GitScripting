@@ -10,53 +10,45 @@ Git has commands like `git pull origin master` which is not small command to typ
 ## add
 Add all modified and new files in the current directory and all subdirectories to the staging area.
 
-## commit
-Makes something like checkpoints (saving all your working files). Commit can be local and on the server side. When you do push, you make your local commits to be written in the server.
+## build
+Run command `npm run build` which in most frameworks making build of the project
 
 ## d
 Switch you into dev branch.
+
 ## m
 Switch you into master branch.
 
-## fetch
-Reset all files to working saved versions to the `dev` branch in server.
-## f
-Same with `fetch` command, just it require also branch as second parament. ex: `f master` which will fetch to branch master.
+## s
+Switch you into stage branch.
 
-## fmfd
-Fetching master branch from dev branch. Useful when you want to update your master branch from your dev branch.
+## f :branch
+Reset all files to working saved versions to the :branch branch in server. Ex: `f stage` which will fetch to branch stage.
 
-## gap
-This command is used to start up application for the PhoneGap app.
-## run
-This command is used to start up web server application by nodemon
 ## go
 This command start a npm project (npm run start).
+
 ## publish
 Publish will publish your npm repo into [npm public access. ](https://www.npmjs.com)
 
 ## gkey
 This command is made to generate ssh key, is require email as second parameter and after it will ask few questions about the key you want to generate. Not providing any answers will generate the default key.
+
 ## key
 This command will print in terminal your ssh key, if you have one.
 
-## init
-Initialize git repository with dev branch. Require as second parameter repo link. ex: `init git@github.com:WebArtWork/GitScripting.git`
-## minit
-Initialize git repository with master branch. Require as second parameter repo link. ex: `minit git@github.com:WebArtWork/GitScripting.git`
+## i :repo :branch
+Initialize git repository with selected branch. Require as second parameter repo link. ex: `i git@github.com:WebArtWork/GitScripting.git stage`
 
 ## pa
-This command unite the update group of commands, require as second parameter the message for commit and updating the dev branch. ex: `pa 'Updating readme file'`<br>
-At start it do `add`, then `commit Message_Provided`, then pull and after that push. If merge has appeared on pull command, push will not work.
-## p
-This is same command with pa, with the difference that we can pass on which branch we want to do the update. ex `p 'UPdating readme file' master`
+This command unite the update group of commands, require as second parameter the message for commit and updating the currne branch. ex: `pa 'Updating readme file'`<br>
+At start it do `add Message_Provided` then pull and after that push. If merge has appeared on pull command, push will not work.
 
 ## pull
-This comand downloads the code from dev branch.
+This comand downloads the code from current branch.
+
 ## pul
 Same with `pull` command, with difference that we can specify the branch we want to download the code the code. ex `pul master`
 
 ## push
-This command pushing all your local commits to the dev branch in the server.
-## pus
-This is same command with push with difference that we can specify the branch. ex `pus master`
+This command pushing all your local commits to the current branch in the server.

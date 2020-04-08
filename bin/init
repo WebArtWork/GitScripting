@@ -1,4 +1,0 @@
-git init
-git remote add origin "$1"
-git checkout -b dev
-git pull origin dev
