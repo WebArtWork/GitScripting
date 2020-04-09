@@ -25,6 +25,9 @@ Switch you into stage branch.
 ## f :branch
 Reset all files to working saved versions to the :branch branch in server. Ex: `f stage` which will fetch to branch stage.
 
+## fetch
+Similar to `f` with difference that fetching current branch
+
 ## go
 This command start a npm project (npm run start).
 
@@ -42,7 +45,7 @@ Initialize git repository with selected branch. Require as second parameter repo
 
 ## pa
 This command unite the update group of commands, require as second parameter the message for commit and updating the currne branch. ex: `pa 'Updating readme file'`<br>
-At start it do `add Message_Provided` then pull and after that push. If merge has appeared on pull command, push will not work.
+At start it do `add Message_Provided` then push.
 
 ## pull
 This comand downloads the code from current branch.
