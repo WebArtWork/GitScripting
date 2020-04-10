@@ -25,6 +25,9 @@ Switch you into stage branch.
 ## f :branch
 Reset all files to working saved versions to the :branch branch in server. Ex: `f stage` which will fetch to branch stage.
 
+## fetch
+Similar to `f` command with difference that it will fetch current branch.
+
 ## go
 This command start a npm project (npm run start).
 

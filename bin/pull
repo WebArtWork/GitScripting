@@ -1,1 +1,1 @@
-git pull origin HEAD
+git pull origin $(git rev-parse --abbrev-ref HEAD)
