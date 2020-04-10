@@ -52,3 +52,9 @@ Same with `pull` command, with difference that we can specify the branch we want
 
 ## push
 This command pushing all your local commits to the current branch in the server.
+
+## list
+This command listing all your local branches.
+
+## remove :branch
+This command removing :branch locally by force, so carefully if you haven't pushed it.
