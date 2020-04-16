@@ -44,7 +44,7 @@ This command will print in terminal your ssh key, if you have one.
 Initialize git repository with selected branch. Require as second parameter repo link. ex: `i git@github.com:WebArtWork/GitScripting.git stage`
 
 ## pa
-This command unite the update group of commands, require as second parameter the message for commit and updating the currne branch. ex: `pa 'Updating readme file'`<br>
+This command unite the update group of commands, require as second parameter the message for commit and updating the current branch. ex: `pa 'Updating readme file'`<br>
 At start it do `add Message_Provided` then push.
 
 ## pull
