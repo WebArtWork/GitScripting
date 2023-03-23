@@ -61,3 +61,9 @@ This command listing all your local branches.
 
 ## remove :branch
 This command removing :branch locally by force, so carefully if you haven't pushed it.
+
+## task
+Create new branch out of current branch or switch to that branch if such exists
+
+## npmi
+Do `npm i --legacy-peer-deps` which usually help do install if there is old plugins in your project
