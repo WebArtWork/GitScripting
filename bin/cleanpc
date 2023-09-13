@@ -1,0 +1,3 @@
+rm -rf ~/AppData/Local/Temp/*
+rm -rf /c/Windows/Prefetch/*
+rm -rf /c/Windows/Temp/*
